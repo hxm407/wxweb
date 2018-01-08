@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function (ops) {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,6 +32,10 @@ App({
         }
       }
     })
+    //获取回调信息
+    if (ops.scene == 1044) {
+      console.log(ops.shareTicket)
+    }
   },
   globalData: {
     userInfo: null

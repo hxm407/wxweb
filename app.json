@@ -1,13 +1,13 @@
 {
   "pages": [
+    "pages/xj/xj",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/sdt/sdt"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "刚好遇到你",
     "navigationBarTextStyle": "black"
   }
 }

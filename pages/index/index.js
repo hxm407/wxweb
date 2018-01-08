@@ -73,16 +73,16 @@ Page({
     //   }
     // })
     //使用微信内置地图查看位置。
-    wx.getLocation({
-      type: 'gcj02', //返回可以用于wx.openLocation的经纬度
-      success: function (res) {
-        mapdata.latitude = res.latitude
-        mapdata.longitude = res.longitude
-        wx.openLocation({
-          mapdata
-        })
-      }
-    })
+    // wx.getLocation({
+    //   type: 'gcj02', //返回可以用于wx.openLocation的经纬度
+    //   success: function (res) {
+    //     mapdata.latitude = res.latitude
+    //     mapdata.longitude = res.longitude
+    //     wx.openLocation({
+    //       mapdata
+    //     })
+    //   }
+    // })
   },
   getUserInfo: function(e) {
     console.log(e)

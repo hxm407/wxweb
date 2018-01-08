@@ -1,0 +1,36 @@
+/* pages/xj/xj.wxss */
+.navigator-hover {
+    color:blue;
+}
+
+.section{
+   color: #fff;
+   background:#5bc0de ;
+   margin:20rpx;
+   padding:20rpx
+}
+
+.section2{
+   color: #fff;
+   background:#337ab7;
+   margin:20rpx;
+   padding:20rpx
+}
+
+.jieguo{
+  color: #337ab7;
+  padding:20rpx
+}
+
+.button{
+  background-color: #4cae4c;
+  color: #fff;
+  margin:20rpx;
+}
+
+.button2{
+  background-color: #f0ad4e;
+  color: #fff;
+  margin:20rpx;
+}
+ 

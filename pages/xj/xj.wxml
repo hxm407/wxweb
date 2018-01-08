@@ -1,0 +1,36 @@
+<view class="section"> 
+    <picker mode="date" value="{{date}}" start="1978-01-01" end="2999-1-23" bindchange="bindDateChange">  
+    <view class="picker">  
+      开始日期: {{startdate}}  
+    </view>  
+  </picker>
+</view>
+<view  class="section">
+  <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">  
+    <view class="picker">  
+     开始时间 : {{starttime}}
+    </view>  
+  </picker>  
+</view>  
+
+<!-- 结束时间 -->
+<view class="section2"> 
+    <picker mode="date" value="{{date}}" start="1978-01-01" end="2999-1-23" bindchange="bindDateChange2">  
+    <view class="picker">  
+      结束日期: {{enddate}}  
+    </view>  
+  </picker>
+</view>
+<view class="section2">
+  <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange2">  
+    <view class="picker">  
+     结束时间 : {{endtime}}
+    </view>  
+  </picker>  
+</view>  
+<button class='button' type="defaule" bindtap="jisuanshijian">计算</button>
+<button class='button2' type="defaule" bindtap="chongzhi">重置</button>
+<view class="jieguo">时间差：{{sjc}}</view>
+
+<!-- <input  bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+<view class="section__title">你输入的是：{{inputValue}}</view> -->
